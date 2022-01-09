@@ -12,6 +12,10 @@ public class StockieChartPage {
 	private By searchbarButton = By.xpath("//div[@class='input-group-text']");
 	private By assetName = By.xpath("//div[@class='company']");
 	private By assetCurrency = By.xpath("//div[@class='currency']");
+	private By assetIndustry = By.xpath("//div[@class='industry']");
+	private By assetSector = By.xpath("//div[@class='sector']");
+	private By assetWebsite = By.xpath("//div[@class='webseitecompany']");
+	private By assetDescription = By.xpath("//div[@class='information']");
 	
 	public StockieChartPage(WebDriver driver) {
 		this.driver = driver;
@@ -29,6 +33,22 @@ public class StockieChartPage {
 	
 	public String getAssetCurrency() {
 		return this.driver.findElement(assetCurrency).getText();
+	}
+	
+	public String getAssetIndustry() {
+		return this.driver.findElement(assetIndustry).getText();
+	}
+	
+	public String getAssetSector() {
+		return this.driver.findElement(assetSector).getText();
+	}
+	
+	public String getAssetWebsite() {
+		return this.driver.findElement(assetWebsite).getText();
+	}
+	
+	public String getAssetDescription() {
+		return this.driver.findElement(assetDescription).getText();
 	}
 	
 }
