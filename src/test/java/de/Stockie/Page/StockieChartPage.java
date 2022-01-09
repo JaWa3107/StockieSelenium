@@ -11,6 +11,7 @@ public class StockieChartPage {
 	private By searchbarText = By.xpath("//input[@id='__BVID__7']");
 	private By searchbarButton = By.xpath("//div[@class='input-group-text']");
 	private By assetName = By.xpath("//div[@class='company']");
+	private By assetCurrency = By.xpath("//div[@class='currency']");
 	
 	public StockieChartPage(WebDriver driver) {
 		this.driver = driver;
@@ -24,6 +25,10 @@ public class StockieChartPage {
 	
 	public String getAssetName() {
 		return this.driver.findElement(assetName).getText();
+	}
+	
+	public String getAssetCurrency() {
+		return this.driver.findElement(assetCurrency).getText();
 	}
 	
 }

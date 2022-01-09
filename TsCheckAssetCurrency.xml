@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Apple">
+		<parameter name="assetName" value="AAPL"></parameter>
+		<parameter name="expectedCurrency" value="USD"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Microsoft">
+		<parameter name="assetName" value="MSFT"></parameter>
+		<parameter name="expectedCurrency" value="USD"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Nvida">
+		<parameter name="assetName" value="NVDA"></parameter>
+		<parameter name="expectedCurrency" value="USD"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Tesla">
+		<parameter name="assetName" value="TSLA"></parameter>
+		<parameter name="expectedCurrency" value="USD"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Amazon">
+		<parameter name="assetName" value="AMZN"></parameter>
+		<parameter name="expectedCurrency" value="USD"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
+    	</classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->
