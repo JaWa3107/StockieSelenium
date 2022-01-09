@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test name="TcCheckAvailable">
     <classes>
-      <class name="de.Stockie.TcCheckAvailable"/>
+      <class name="de.Stockie.Selenium.TcCheckAvailable"/>
+    </classes>
+  </test> <!-- Test -->
+<test name="TcCheckAssetName">
+<parameter name="assetName" value="MSFT"></parameter>
+<parameter name="expectedName" value="Microsoft"></parameter>
+    <classes>
+      <class name="de.Stockie.Selenium.TcCheckAssetName"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
