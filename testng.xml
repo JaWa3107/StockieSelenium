@@ -6,11 +6,4 @@
       <class name="de.Stockie.Selenium.TcCheckAvailable"/>
     </classes>
   </test> <!-- Test -->
-<test name="TcCheckAssetName">
-<parameter name="assetName" value="MSFT"></parameter>
-<parameter name="expectedName" value="Microsoft"></parameter>
-    <classes>
-      <class name="de.Stockie.Selenium.TcCheckAssetName"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
