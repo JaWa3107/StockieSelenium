@@ -45,6 +45,7 @@
 <suiteXmlFiles>
 <suiteXmlFile>TsCheckAvailable.xml</suiteXmlFile>
 <suiteXmlFile>TsCheckAssetNames.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetCurrency.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
         </plugin>
