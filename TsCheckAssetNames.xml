@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Apple">
+		<parameter name="assetName" value="AAPL"></parameter>
+		<parameter name="expectedName" value="Apple"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Microsoft">
+		<parameter name="assetName" value="MSFT"></parameter>
+		<parameter name="expectedName" value="Microsoft"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Nvida">
+		<parameter name="assetName" value="NVDA"></parameter>
+		<parameter name="expectedName" value="Nvidia"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Tesla">
+		<parameter name="assetName" value="TSLA"></parameter>
+		<parameter name="expectedName" value="Tesla"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
+    	</classes>
+  	</test> <!-- Test -->
+	<test name="Amazon">
+		<parameter name="assetName" value="AMZN"></parameter>
+		<parameter name="expectedName" value="Amazon"></parameter>
+    	<classes>
+      		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
+    	</classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->

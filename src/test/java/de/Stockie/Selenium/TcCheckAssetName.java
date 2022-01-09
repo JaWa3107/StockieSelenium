@@ -24,7 +24,7 @@ public class TcCheckAssetName {
 	  
 	  
 	  System.out.println("initialisiere Webdriver");
-	  System.out.println("Start TcCheckAvailable");
+	  System.out.println("Start TcCheckAssetName");
 		
 	  URL linkHub = new URL("http://localhost:4444/wd/hub");
 	  driver = new RemoteWebDriver(linkHub, DesiredCapabilities.firefox());
