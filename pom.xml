@@ -49,6 +49,7 @@
 <suiteXmlFile>TsCheckAssetSector.xml</suiteXmlFile>
 <suiteXmlFile>TsCheckAssetIndustry.xml</suiteXmlFile>
 <suiteXmlFile>TsCheckAssetDescription.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetWebsite.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
         </plugin>
