@@ -16,6 +16,7 @@ public class StockieChartPage {
 	private By assetSector = By.xpath("//div[@class='sector']");
 	private By assetWebsite = By.xpath("//div[@class='webseitecompany']");
 	private By assetDescription = By.xpath("//div[@class='information']");
+	private By alertBox = By.xpath("//div[@role='alert']");
 	
 	public StockieChartPage(WebDriver driver) {
 		this.driver = driver;
@@ -49,6 +50,10 @@ public class StockieChartPage {
 	
 	public String getAssetDescription() {
 		return this.driver.findElement(assetDescription).getText();
+	}
+	
+	public String getAlertBoxText() {
+		return this.driver.findElement(alertBox).getText();
 	}
 	
 }
