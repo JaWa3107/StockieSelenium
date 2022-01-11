@@ -14,7 +14,7 @@ public enum AvailableBrowser {
 		@Override
 		public WebDriver createDriver() throws MalformedURLException {
 			
-			URL linkHub = new URL("http://185.188.250.67:4444/wd/hub");
+			URL linkHub = new URL("http://localhost:4444/wd/hub");
 			WebDriver driver = new RemoteWebDriver(linkHub, DesiredCapabilities.firefox());
 			
 			return driver;
