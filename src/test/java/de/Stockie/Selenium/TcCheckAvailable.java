@@ -21,8 +21,8 @@ WebDriver driver;
 		System.out.println("initialisiere Webdriver");
 		System.out.println("Start TcCheckAvailable");
 		
-		URL linkHub = new URL("http://localhost:4444/wd/hub");
-		driver = new RemoteWebDriver(linkHub, DesiredCapabilities.firefox());
+		URL linkHub = new URL("http://185.188.250.67:4444/wd/hub");
+		driver = new RemoteWebDriver(linkHub, DesiredCapabilities.chrome());
 		
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		//driver = new ChromeDriver();
