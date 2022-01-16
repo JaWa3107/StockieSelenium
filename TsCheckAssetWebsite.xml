@@ -4,7 +4,7 @@
 	<test name="Apple">
 		<parameter name="assetName" value="AAPL"></parameter>
 		<parameter name="expectedWebsite" value="https://www.apple.com"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetWebsite"/>
     	</classes>
@@ -12,7 +12,7 @@
 	<test name="Microsoft">
 		<parameter name="assetName" value="MSFT"></parameter>
 		<parameter name="expectedWebsite" value="https://www.microsoft.com"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetWebsite"/>
     	</classes>
@@ -20,7 +20,7 @@
 	<test name="Nvida">
 		<parameter name="assetName" value="NVDA"></parameter>
 		<parameter name="expectedWebsite" value="https://www.nvidia.com"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetWebsite"/>
     	</classes>
@@ -28,7 +28,7 @@
 	<test name="Tesla">
 		<parameter name="assetName" value="TSLA"></parameter>
 		<parameter name="expectedWebsite" value="https://www.tesla.com"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetWebsite"/>
     	</classes>
@@ -36,7 +36,7 @@
 	<test name="Amazon">
 		<parameter name="assetName" value="AMZN"></parameter>
 		<parameter name="expectedWebsite" value="https://www.amazon.com"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetWebsite"/>
     	</classes>

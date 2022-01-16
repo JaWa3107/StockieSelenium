@@ -4,7 +4,7 @@
 	<test name="Apple">
 		<parameter name="assetName" value="AAPL"></parameter>
 		<parameter name="expectedCurrency" value="USD"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
     	</classes>
@@ -12,7 +12,7 @@
 	<test name="Microsoft">
 		<parameter name="assetName" value="MSFT"></parameter>
 		<parameter name="expectedCurrency" value="USD"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
     	</classes>
@@ -20,7 +20,7 @@
 	<test name="Nvida">
 		<parameter name="assetName" value="NVDA"></parameter>
 		<parameter name="expectedCurrency" value="USD"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
     	</classes>
@@ -28,7 +28,7 @@
 	<test name="Tesla">
 		<parameter name="assetName" value="TSLA"></parameter>
 		<parameter name="expectedCurrency" value="USD"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
     	</classes>
@@ -36,7 +36,7 @@
 	<test name="Amazon">
 		<parameter name="assetName" value="AMZN"></parameter>
 		<parameter name="expectedCurrency" value="USD"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetCurrency"/>
     	</classes>

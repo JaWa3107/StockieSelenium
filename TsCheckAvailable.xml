@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="TcCheckAvailable">
-	<parameter name="browserName" value="firefox"></parameter>
+	<parameter name="browserName" value="chrome"></parameter>
     <classes>
       <class name="de.Stockie.Selenium.TcCheckAvailable"/>
     </classes>

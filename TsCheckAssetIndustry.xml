@@ -4,7 +4,7 @@
 	<test name="Apple">
 		<parameter name="assetName" value="AAPL"></parameter>
 		<parameter name="expectedIndustry" value="ELECTRONIC COMPUTERS"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetIndustry"/>
     	</classes>
@@ -12,7 +12,7 @@
 	<test name="Microsoft">
 		<parameter name="assetName" value="MSFT"></parameter>
 		<parameter name="expectedIndustry" value="SERVICES-PREPACKAGED SOFTWARE"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetIndustry"/>
     	</classes>
@@ -20,7 +20,7 @@
 	<test name="Nvida">
 		<parameter name="assetName" value="NVDA"></parameter>
 		<parameter name="expectedIndustry" value="SEMICONDUCTORS AND RELATED DEVICES"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetIndustry"/>
     	</classes>
@@ -28,7 +28,7 @@
 	<test name="Tesla">
 		<parameter name="assetName" value="TSLA"></parameter>
 		<parameter name="expectedIndustry" value="MOTOR VEHICLES AND PASSENGER CAR BODIES"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetIndustry"/>
     	</classes>
@@ -36,7 +36,7 @@
 	<test name="Amazon">
 		<parameter name="assetName" value="AMZN"></parameter>
 		<parameter name="expectedIndustry" value="RETAIL-CATALOG AND MAIL-ORDER HOUSES"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetIndustry"/>
     	</classes>

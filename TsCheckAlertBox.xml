@@ -3,35 +3,35 @@
 <suite name="Suite">
 	<test name="Apple">
 		<parameter name="assetName" value="Tesla"></parameter>
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAlertBox"/>
     	</classes>
   	</test> <!-- Test -->
 	<test name="Microsoft">
 		<parameter name="assetName" value="Epic"></parameter>	
-		<parameter name="browserName" value="firefox"></parameter>	
+		<parameter name="browserName" value="chrome"></parameter>	
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAlertBox"/>
     	</classes>
   	</test> <!-- Test -->
 	<test name="Nvida">
 		<parameter name="assetName" value="Oppo"></parameter>	
-		<parameter name="browserName" value="firefox"></parameter>	
+		<parameter name="browserName" value="chrome"></parameter>	
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAlertBox"/>
     	</classes>
   	</test> <!-- Test -->
 	<test name="Tesla">
 		<parameter name="assetName" value="Xiaomi"></parameter>		
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAlertBox"/>
     	</classes>
   	</test> <!-- Test -->
 	<test name="Amazon">
 		<parameter name="assetName" value="NASA"></parameter>		
-		<parameter name="browserName" value="firefox"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAlertBox"/>
     	</classes>
