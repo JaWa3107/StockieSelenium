@@ -44,13 +44,13 @@
           <configuration>
 <suiteXmlFiles>
 <suiteXmlFile>TsCheckAvailable.xml</suiteXmlFile>
-<!--<suiteXmlFile>TsCheckAssetNames.xml</suiteXmlFile>-->
-<!--<suiteXmlFile>TsCheckAssetCurrency.xml</suiteXmlFile>-->
-<!--<suiteXmlFile>TsCheckAssetSector.xml</suiteXmlFile>-->
-<!--<suiteXmlFile>TsCheckAssetIndustry.xml</suiteXmlFile>-->
-<!--<suiteXmlFile>TsCheckAssetDescription.xml</suiteXmlFile>-->
-<!--<suiteXmlFile>TsCheckAssetWebsite.xml</suiteXmlFile>-->
-<!--  <suiteXmlFile>TsCheckAlertBox.xml</suiteXmlFile>-->
+<suiteXmlFile>TsCheckAssetNames.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetCurrency.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetSector.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetIndustry.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetDescription.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAssetWebsite.xml</suiteXmlFile>
+<suiteXmlFile>TsCheckAlertBox.xml</suiteXmlFile>
 </suiteXmlFiles>
 </configuration>
         </plugin>
