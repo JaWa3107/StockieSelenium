@@ -20,7 +20,9 @@ WebDriver driver;
 		System.out.println("initialisiere Webdriver");
 		System.out.println("Start TcCheckAvailable");
 			
-		driver = getDriver("firefox");
+		driver = getDriver(browserName);
+		
+		
 		
 		driver.get("http://185.188.250.67/");
 		

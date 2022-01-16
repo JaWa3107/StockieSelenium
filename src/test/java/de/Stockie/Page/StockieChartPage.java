@@ -8,7 +8,7 @@ public class StockieChartPage {
 
 	private WebDriver driver;
 	
-	private By searchbarText = By.xpath("//input[@id='__BVID__7']");
+	private By searchbarText = By.xpath("//input[@id='__BVID__10']");
 	private By searchbarButton = By.xpath("//div[@class='input-group-text']");
 	private By assetName = By.xpath("//div[@class='company']");
 	private By assetCurrency = By.xpath("//div[@class='currency']");

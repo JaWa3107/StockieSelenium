@@ -3,34 +3,27 @@ package de.Stockie.Selenium;
 import static org.testng.Assert.assertEquals;
 
 import java.net.MalformedURLException;
-import java.net.URL;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import de.Stockie.Page.StockieChartPage;
+import de.Stockie.SingletonDriver.DriverHelper;
 
-public class TcCheckAssetWebsite {
+public class TcCheckAssetWebsite extends DriverHelper {
 
 	WebDriver driver;
 
   @Test
-  @Parameters({"assetName","expectedWebsite"})
-  public void start(String assetName, String expectedWebsite ) throws MalformedURLException, InterruptedException {
+  @Parameters({"assetName","expectedWebsite", "browserName"})
+  public void start(String assetName, String expectedWebsite, String browserName ) throws MalformedURLException, InterruptedException {
 
 	  
 	  
 	  System.out.println("initialisiere Webdriver");
 	  System.out.println("Start TcCheckAssetWebsite");
 		
-	  URL linkHub = new URL("http://localhost:4444/wd/hub");
-	  driver = new RemoteWebDriver(linkHub, DesiredCapabilities.chrome());
-		
-	  //System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-	  //driver = new ChromeDriver();
+	  driver = getDriver(browserName);
 		
 	  driver.get("http://185.188.250.67/");
 	  

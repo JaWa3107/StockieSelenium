@@ -4,6 +4,7 @@
 	<test name="Apple">
 		<parameter name="assetName" value="AAPL"></parameter>
 		<parameter name="expectedName" value="Apple"></parameter>
+		<parameter name="browserName" value="firefox"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
     	</classes>
@@ -11,6 +12,7 @@
 	<test name="Microsoft">
 		<parameter name="assetName" value="MSFT"></parameter>
 		<parameter name="expectedName" value="Microsoft"></parameter>
+		<parameter name="browserName" value="firefox"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
     	</classes>
@@ -18,6 +20,7 @@
 	<test name="Nvida">
 		<parameter name="assetName" value="NVDA"></parameter>
 		<parameter name="expectedName" value="Nvidia"></parameter>
+		<parameter name="browserName" value="firefox"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
     	</classes>
@@ -25,6 +28,7 @@
 	<test name="Tesla">
 		<parameter name="assetName" value="TSLA"></parameter>
 		<parameter name="expectedName" value="Tesla"></parameter>
+		<parameter name="browserName" value="firefox"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
     	</classes>
@@ -32,6 +36,7 @@
 	<test name="Amazon">
 		<parameter name="assetName" value="AMZN"></parameter>
 		<parameter name="expectedName" value="Amazon"></parameter>
+		<parameter name="browserName" value="firefox"></parameter>
     	<classes>
       		<class name="de.Stockie.Selenium.TcCheckAssetName"/>
     	</classes>
